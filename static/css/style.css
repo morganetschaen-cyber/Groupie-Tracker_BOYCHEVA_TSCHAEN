@@ -78,3 +78,52 @@
     fill: none;
     stroke-width: 1.5;
 }
+
+.sidebar-section-title {
+    font-size: 0.7rem;
+    color: #6b8c6b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 18px 10px;
+}
+/*style artiste*/
+.sidebar-artists {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.sidebar-artist {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    color: #d4c4a8;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s;
+    margin-bottom: 3px;
+}
+
+.sidebar-artist:hover {
+    background: rgba(255,255,255,0.1);
+    color: #e8dcc8;
+}
+
+.sidebar-artist img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar-artist-info h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: #e8dcc8;
+}
+
+.sidebar-artist-info p {
+    font-size: 0.75rem;
+    color: #6b8c6b;
+}
