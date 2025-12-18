@@ -129,6 +129,16 @@
     height: 45px;
     border-radius: 50%;
     object-fit: cover;
+    border: 2px solid #8fbc8f;
+    filter: drop-shadow(0 0 3px #8fbc8f) drop-shadow(0 0 6px #8fbc8f);
+    transition: all 0.3s ease;
+}
+
+.sidebar-artist:hover img {
+    border-color: #a8d8a8;
+    filter: drop-shadow(0 0 4px #a8d8a8) 
+            drop-shadow(0 0 8px #a8d8a8) 
+            drop-shadow(0 0 12px #a8d8a8);
 }
 
 .sidebar-artist-info h4 {
