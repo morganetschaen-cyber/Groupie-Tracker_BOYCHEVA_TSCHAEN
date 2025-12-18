@@ -1,8 +1,8 @@
 package main
 
-import(
+import (
+	"fmt"
 	"net/http"
-	"log"
 )
 
 type Artist struct {
@@ -26,6 +26,6 @@ func main() {
 		http.ServeFile(w, r, "templates/index.html")
 	})
 
-	log.Println("Server running at http://localhost:8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	fmt.Println("Server running at http://localhost:8080")
+	http.ListenAndServe(":8080", nil)
 }
