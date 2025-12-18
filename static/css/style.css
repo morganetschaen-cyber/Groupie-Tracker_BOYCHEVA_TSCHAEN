@@ -5,38 +5,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.conteiner {
-    display: flex;
-    min-height: 100vh;
-}
-
-.menu {
-    width: 200px;
-    background-color: #2c3e50;
-    padding: 20px;
-    color: whitesmoke;
-}
-
-.menu h2 {
-    margin-bottom: 20px;
-}
-
-.menu a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    margin: 10px 0;
-}
-
-.menu a:hover {
-    text-decoration: underline;
-}
-
-.content {
-    flex: 1;
-    padding: 30px;
-}
-
 /*style sidebar*/
 .sidebar {
     width: 280px;
