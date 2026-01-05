@@ -8,7 +8,7 @@
 .sidebar {
     width: 280px;
     background: #1a2e1a;
-    padding: 25px 20px;
+    padding: 24px 18px;
     display: flex;
     flex-direction: column;
     position: fixed; 
@@ -159,4 +159,24 @@
 .sidebar-artist-info p {
     font-size: 0.75rem;
     color: #6b8c6b;
+}
+.line {
+    height: 1px;
+    width: 100%;
+    margin: 18px 0 12px;
+    background: rgba(255, 255, 255, 0.25);
+    flex-shrink: 0;
+}
+.sidebar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 25px;
+}
+
+.sidebar-logo img {
+    width: 130px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 6px rgba(143, 188, 143, 0.6));
 }
